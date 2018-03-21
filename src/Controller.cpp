@@ -1,7 +1,7 @@
-#include "Controller.h"
-#include "SALP.h"
-#include "ALDRAM.h"
-#include "TLDRAM.h"
+#include "../include/Controller.h"
+#include "../include/SALP.h"
+#include "../include/ALDRAM.h"
+#include "../include/TLDRAM.h"
 
 using namespace ramulator;
 

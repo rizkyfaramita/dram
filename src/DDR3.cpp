@@ -1,5 +1,5 @@
-#include "DDR3.h"
-#include "DRAM.h"
+#include "../include/DDR3.h"
+#include "../include/DRAM.h"
 #include <vector>
 #include <functional>
 #include <cassert>

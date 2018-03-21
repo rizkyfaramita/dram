@@ -1,5 +1,5 @@
-#include "HBM.h"
-#include "DRAM.h"
+#include "../include/HBM.h"
+#include "../include/DRAM.h"
 
 #include <vector>
 #include <functional>

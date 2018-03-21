@@ -9,10 +9,10 @@
 
 #include <stdlib.h>
 
-#include "Refresh.h"
-#include "Controller.h"
-#include "DRAM.h"
-#include "DSARP.h"
+#include "../include/Refresh.h"
+#include "../include/Controller.h"
+#include "../include/DRAM.h"
+#include "../include/DSARP.h"
 
 using namespace std;
 using namespace ramulator;

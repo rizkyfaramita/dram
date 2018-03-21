@@ -1,5 +1,5 @@
-#include "LPDDR3.h"
-#include "DRAM.h"
+#include "../include/LPDDR3.h"
+#include "../include/DRAM.h"
 
 #include <vector>
 #include <functional>

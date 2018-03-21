@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "ALDRAM.h"
-#include "DRAM.h"
+#include "../include/ALDRAM.h"
+#include "../include/DRAM.h"
 #include <vector>
 #include <functional>
 #include <cassert>

@@ -1,19 +1,19 @@
 #include <map>
 
-#include "Gem5Wrapper.h"
-#include "Config.h"
-#include "Request.h"
-#include "MemoryFactory.h"
-#include "Memory.h"
-#include "DDR3.h"
-#include "DDR4.h"
-#include "LPDDR3.h"
-#include "LPDDR4.h"
-#include "GDDR5.h"
-#include "WideIO.h"
-#include "WideIO2.h"
-#include "HBM.h"
-#include "SALP.h"
+#include "../include/Gem5Wrapper.h"
+#include "../include/Config.h"
+#include "../include/Request.h"
+#include "../include/MemoryFactory.h"
+#include "../include/Memory.h"
+#include "../include/DDR3.h"
+#include "../include/DDR4.h"
+#include "../include/LPDDR3.h"
+#include "../include/LPDDR4.h"
+#include "../include/GDDR5.h"
+#include "../include/WideIO.h"
+#include "../include/WideIO2.h"
+#include "../include/HBM.h"
+#include "../include/SALP.h"
 
 using namespace ramulator;
 

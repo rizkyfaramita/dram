@@ -1,5 +1,5 @@
-#include "TLDRAM.h"
-#include "DRAM.h"
+#include "../include/TLDRAM.h"
+#include "../include/DRAM.h"
 #include <vector>
 #include <functional>
 #include <cassert>

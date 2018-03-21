@@ -1,5 +1,5 @@
-#include "SALP.h"
-#include "DRAM.h"
+#include "../include/SALP.h"
+#include "../include/DRAM.h"
 #include <vector>
 #include <functional>
 #include <cassert>

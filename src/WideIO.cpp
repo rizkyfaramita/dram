@@ -1,5 +1,5 @@
-#include "WideIO.h"
-#include "DRAM.h"
+#include "../include/WideIO.h"
+#include "../include/DRAM.h"
 #include <vector>
 #include <functional>
 #include <cassert>

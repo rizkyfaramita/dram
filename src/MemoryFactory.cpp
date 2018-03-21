@@ -1,9 +1,9 @@
-#include "MemoryFactory.h"
-#include "LPDDR4.h"
-#include "WideIO.h"
-#include "WideIO2.h"
-#include "HBM.h"
-#include "SALP.h"
+#include "../include/MemoryFactory.h"
+#include "../include/LPDDR4.h"
+#include "../include/WideIO.h"
+#include "../include/WideIO2.h"
+#include "../include/HBM.h"
+#include "../include/SALP.h"
 
 using namespace ramulator;
 

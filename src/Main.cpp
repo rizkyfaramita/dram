@@ -1,10 +1,10 @@
-#include "Processor.h"
-#include "Config.h"
-#include "Controller.h"
-#include "SpeedyController.h"
-#include "Memory.h"
-#include "DRAM.h"
-#include "Statistics.h"
+#include "../include/Processor.h"
+#include "../include/Config.h"
+#include "../include/Controller.h"
+#include "../include/SpeedyController.h"
+#include "../include/Memory.h"
+#include "../include/DRAM.h"
+#include "../include/Statistics.h"
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
@@ -13,19 +13,19 @@
 #include <map>
 
 /* Standards */
-#include "Gem5Wrapper.h"
-#include "DDR3.h"
-#include "DDR4.h"
-#include "DSARP.h"
-#include "GDDR5.h"
-#include "LPDDR3.h"
-#include "LPDDR4.h"
-#include "WideIO.h"
-#include "WideIO2.h"
-#include "HBM.h"
-#include "SALP.h"
-#include "ALDRAM.h"
-#include "TLDRAM.h"
+#include "../include/Gem5Wrapper.h"
+#include "../include/DDR3.h"
+#include "../include/DDR4.h"
+#include "../include/DSARP.h"
+#include "../include/GDDR5.h"
+#include "../include/LPDDR3.h"
+#include "../include/LPDDR4.h"
+#include "../include/WideIO.h"
+#include "../include/WideIO2.h"
+#include "../include/HBM.h"
+#include "../include/SALP.h"
+#include "../include/ALDRAM.h"
+#include "../include/TLDRAM.h"
 
 using namespace std;
 using namespace ramulator;

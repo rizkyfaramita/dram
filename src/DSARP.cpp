@@ -13,8 +13,8 @@
 #include <functional>
 #include <cassert>
 #include <math.h>
-#include "DSARP.h"
-#include "DRAM.h"
+#include "../include/DSARP.h"
+#include "../include/DRAM.h"
 
 using namespace std;
 using namespace ramulator;
