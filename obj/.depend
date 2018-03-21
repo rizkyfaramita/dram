@@ -1,46 +1,75 @@
-obj/WideIO2.o: src/WideIO2.cpp src/WideIO2.h src/DRAM.h src/Statistics.h \
-  src/StatType.h src/Request.h
-obj/LPDDR3.o: src/LPDDR3.cpp src/LPDDR3.h src/DRAM.h src/Statistics.h \
-  src/StatType.h src/Request.h
-obj/Controller.o: src/Controller.cpp src/Controller.h src/Config.h \
-  src/DRAM.h src/Statistics.h src/StatType.h src/Refresh.h src/Request.h \
-  src/DSARP.h src/ALDRAM.h src/Scheduler.h src/SALP.h src/TLDRAM.h
-obj/LPDDR4.o: src/LPDDR4.cpp src/LPDDR4.h src/DRAM.h src/Statistics.h \
-  src/StatType.h src/Request.h
-obj/HBM.o: src/HBM.cpp src/HBM.h src/DRAM.h src/Statistics.h \
-  src/StatType.h src/Request.h
-obj/MemoryFactory.o: src/MemoryFactory.cpp src/MemoryFactory.h \
-  src/Config.h src/Memory.h src/DRAM.h src/Statistics.h src/StatType.h \
-  src/Request.h src/Controller.h src/Refresh.h src/DSARP.h src/ALDRAM.h \
-  src/Scheduler.h src/SALP.h src/TLDRAM.h src/SpeedyController.h \
-  src/GDDR5.h src/HBM.h src/LPDDR3.h src/LPDDR4.h src/WideIO2.h \
-  src/WideIO.h
-obj/Processor.o: src/Processor.cpp src/Processor.h src/Cache.h \
-  src/Config.h src/Request.h src/Statistics.h src/StatType.h \
-  src/Memory.h src/DRAM.h src/Controller.h src/Refresh.h src/DSARP.h \
-  src/ALDRAM.h src/Scheduler.h src/SALP.h src/TLDRAM.h \
-  src/SpeedyController.h src/GDDR5.h src/HBM.h src/LPDDR3.h src/LPDDR4.h \
-  src/WideIO2.h
-obj/WideIO.o: src/WideIO.cpp src/WideIO.h src/DRAM.h src/Statistics.h \
-  src/StatType.h src/Request.h
-obj/Cache.o: src/Cache.cpp src/Cache.h src/Config.h src/Request.h \
-  src/Statistics.h src/StatType.h
-obj/ALDRAM.o: src/ALDRAM.cpp src/ALDRAM.h src/DRAM.h src/Statistics.h \
-  src/StatType.h src/Request.h
-obj/GDDR5.o: src/GDDR5.cpp src/GDDR5.h src/DRAM.h src/Statistics.h \
-  src/StatType.h src/Request.h
-obj/Config.o: src/Config.cpp src/Config.h
-obj/TLDRAM.o: src/TLDRAM.cpp src/TLDRAM.h src/DRAM.h src/Statistics.h \
-  src/StatType.h src/Request.h
-obj/SALP.o: src/SALP.cpp src/SALP.h src/DRAM.h src/Statistics.h \
-  src/StatType.h src/Request.h
-obj/DDR4.o: src/DDR4.cpp src/DDR4.h src/DRAM.h src/Statistics.h \
-  src/StatType.h src/Request.h
-obj/DSARP.o: src/DSARP.cpp src/DSARP.h src/DRAM.h src/Statistics.h \
-  src/StatType.h src/Request.h
-obj/StatType.o: src/StatType.cpp src/StatType.h
-obj/DDR3.o: src/DDR3.cpp src/DDR3.h src/DRAM.h src/Statistics.h \
-  src/StatType.h src/Request.h
-obj/Refresh.o: src/Refresh.cpp src/Refresh.h src/Request.h src/DSARP.h \
-  src/DRAM.h src/Statistics.h src/StatType.h src/ALDRAM.h \
-  src/Controller.h src/Config.h src/Scheduler.h src/SALP.h src/TLDRAM.h
+obj/WideIO2.o: src/WideIO2.cpp src/../include/WideIO2.h \
+  src/../include/DRAM.h src/../include/Statistics.h \
+  src/../include/StatType.h src/../include/Request.h
+obj/Controller.o: src/Controller.cpp src/../include/Controller.h \
+  src/../include/Config.h src/../include/DRAM.h \
+  src/../include/Statistics.h src/../include/StatType.h \
+  src/../include/Refresh.h src/../include/Request.h \
+  src/../include/DSARP.h src/../include/ALDRAM.h \
+  src/../include/Scheduler.h src/../include/SALP.h \
+  src/../include/TLDRAM.h
+obj/LPDDR4.o: src/LPDDR4.cpp src/../include/LPDDR4.h \
+  src/../include/DRAM.h src/../include/Statistics.h \
+  src/../include/StatType.h src/../include/Request.h
+obj/LPDDR3.o: src/LPDDR3.cpp src/../include/LPDDR3.h \
+  src/../include/DRAM.h src/../include/Statistics.h \
+  src/../include/StatType.h src/../include/Request.h
+obj/Refresh.o: src/Refresh.cpp src/../include/Refresh.h \
+  src/../include/Request.h src/../include/DSARP.h src/../include/DRAM.h \
+  src/../include/Statistics.h src/../include/StatType.h \
+  src/../include/ALDRAM.h src/../include/Controller.h \
+  src/../include/Config.h src/../include/Scheduler.h \
+  src/../include/SALP.h src/../include/TLDRAM.h
+obj/HBM.o: src/HBM.cpp src/../include/HBM.h src/../include/DRAM.h \
+  src/../include/Statistics.h src/../include/StatType.h \
+  src/../include/Request.h
+obj/MemoryFactory.o: src/MemoryFactory.cpp src/../include/MemoryFactory.h \
+  src/../include/Config.h src/../include/Memory.h src/../include/DRAM.h \
+  src/../include/Statistics.h src/../include/StatType.h \
+  src/../include/Request.h src/../include/Controller.h \
+  src/../include/Refresh.h src/../include/DSARP.h \
+  src/../include/ALDRAM.h src/../include/Scheduler.h \
+  src/../include/SALP.h src/../include/TLDRAM.h \
+  src/../include/SpeedyController.h src/../include/GDDR5.h \
+  src/../include/HBM.h src/../include/LPDDR3.h src/../include/LPDDR4.h \
+  src/../include/WideIO2.h src/../include/WideIO.h
+obj/Processor.o: src/Processor.cpp src/../include/Processor.h \
+  src/../include/Cache.h src/../include/Config.h \
+  src/../include/Request.h src/../include/Statistics.h \
+  src/../include/StatType.h src/../include/Memory.h \
+  src/../include/DRAM.h src/../include/Controller.h \
+  src/../include/Refresh.h src/../include/DSARP.h \
+  src/../include/ALDRAM.h src/../include/Scheduler.h \
+  src/../include/SALP.h src/../include/TLDRAM.h \
+  src/../include/SpeedyController.h src/../include/GDDR5.h \
+  src/../include/HBM.h src/../include/LPDDR3.h src/../include/LPDDR4.h \
+  src/../include/WideIO2.h
+obj/WideIO.o: src/WideIO.cpp src/../include/WideIO.h \
+  src/../include/DRAM.h src/../include/Statistics.h \
+  src/../include/StatType.h src/../include/Request.h
+obj/Cache.o: src/Cache.cpp src/../include/Cache.h src/../include/Config.h \
+  src/../include/Request.h src/../include/Statistics.h \
+  src/../include/StatType.h
+obj/ALDRAM.o: src/ALDRAM.cpp src/../include/ALDRAM.h \
+  src/../include/DRAM.h src/../include/Statistics.h \
+  src/../include/StatType.h src/../include/Request.h
+obj/GDDR5.o: src/GDDR5.cpp src/../include/GDDR5.h src/../include/DRAM.h \
+  src/../include/Statistics.h src/../include/StatType.h \
+  src/../include/Request.h
+obj/Config.o: src/Config.cpp src/../include/Config.h
+obj/TLDRAM.o: src/TLDRAM.cpp src/../include/TLDRAM.h \
+  src/../include/DRAM.h src/../include/Statistics.h \
+  src/../include/StatType.h src/../include/Request.h
+obj/SALP.o: src/SALP.cpp src/../include/SALP.h src/../include/DRAM.h \
+  src/../include/Statistics.h src/../include/StatType.h \
+  src/../include/Request.h
+obj/DDR4.o: src/DDR4.cpp src/../include/DDR4.h src/../include/DRAM.h \
+  src/../include/Statistics.h src/../include/StatType.h \
+  src/../include/Request.h
+obj/DSARP.o: src/DSARP.cpp src/../include/DSARP.h src/../include/DRAM.h \
+  src/../include/Statistics.h src/../include/StatType.h \
+  src/../include/Request.h
+obj/StatType.o: src/StatType.cpp src/../include/StatType.h
+obj/DDR3.o: src/DDR3.cpp src/../include/DDR3.h src/../include/DRAM.h \
+  src/../include/Statistics.h src/../include/StatType.h \
+  src/../include/Request.h

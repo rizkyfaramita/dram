@@ -1,4 +1,5 @@
 SRCDIR := src
+INCDIR := include
 OBJDIR := obj
 MAIN := $(SRCDIR)/Main.cpp
 SRCS := $(filter-out $(MAIN) $(SRCDIR)/Gem5Wrapper.cpp, $(wildcard $(SRCDIR)/*.cpp))
@@ -32,7 +33,7 @@ ifneq ($(MAKECMDGOALS),clean)
 endif
 
 
-ramulator: $(MAIN) $(OBJS) $(SRCDIR)/*.h | depend
+ramulator: $(MAIN) $(OBJS) $(INCDIR)/*.h | depend
 	$(CXX) $(CXXFLAGS) -DRAMULATOR -o $@ $(MAIN) $(OBJS)
 
 libramulator.a: $(OBJS) $(OBJDIR)/Gem5Wrapper.o
